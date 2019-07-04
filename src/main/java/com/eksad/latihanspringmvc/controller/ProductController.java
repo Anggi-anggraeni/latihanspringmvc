@@ -38,7 +38,8 @@ public class ProductController
 		return "add";
 	}
 	
-	//fungsi request method yaitu untuk 
+	//fungsi request method yaitu untuk mengambil data dari mapping save
+	
 	@RequestMapping(value = "/save", method = RequestMethod.POST)
 	public String save (@ModelAttribute Product product)
 	{
