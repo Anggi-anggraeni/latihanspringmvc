@@ -51,11 +51,6 @@ public class Product
 	public void setPrice(Long price) {
 		this.price = price;
 	}
-//	public String getType() {
-//		return type;
-//	}
-//	public void setType(String type) {
-//		this.type = type;
-//	}
+
 	
 }
